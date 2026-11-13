@@ -131,6 +131,7 @@ svg { display: block; }
 .video-band { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: var(--space-7); padding-top: var(--space-7); margin-top: var(--space-7); border-top: 1px solid var(--color-border); }
 .video-copy p { margin-top: var(--space-4); }
 .video-slot { position: relative; display: grid; place-items: center; aspect-ratio: 16 / 9; border-radius: var(--radius-card); background: var(--color-light-teal); border: 1px solid var(--color-border); overflow: hidden; }
+.product-video-player { width: 100%; max-width: 960px; margin-inline: auto; }
 .video-slot iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-fallback { padding: var(--space-5); color: var(--color-text-secondary); }
 .video-slot .button { position: absolute; }

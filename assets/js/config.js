@@ -4,7 +4,7 @@ export const siteConfig = {
   languageStorageKey: "collabpro.locale",
   playStoreUrl: "",
   videoUrls: {
-    product: "",
+    product: "https://www.youtube.com/embed/VdEhdZ1mnt0",
     team: ""
   }
 };

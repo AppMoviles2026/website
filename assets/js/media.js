@@ -76,6 +76,7 @@ export function initMedia(config, i18n) {
       console.warn(`The ${kind} video URL is invalid. The placeholder remains available.`);
     }
     if (!videoUrl) return;
+    slot.querySelector(".video-fallback").hidden = true;
     button.hidden = false;
     button.addEventListener("click", () => {
       const iframe = document.createElement("iframe");
